@@ -1,5 +1,7 @@
 //https://programmers.co.kr/learn/courses/30/lessons/43238
-//문제: 입국심사, 이분탐색
+//[Programmers] level 2: 입국심사
+//Binary Search(이분탐색)
+
 import java.util.*;
 
 class Solution {
