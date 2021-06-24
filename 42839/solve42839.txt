@@ -1,0 +1,22 @@
+//https://programmers.co.kr/learn/courses/30/lessons/42839
+//[Programmers]level2: 소수찾기_java
+
+>문제 풀이
+
+ 찾은 소수를 중복없이 저장 및 카운트 하기 위해 자료구조로 hash set을 사용했습니다.
+
+주어진 String numbers를 조합해서 만드는 건데, 주의점은 카드의 중복 사용이 안됩니다.
+
+즉 사용했던 카드를 다시 사용할 수 없습니다. 그래서 boolean visited[]를 이용해서 이미 사용한 카드는 사용하지 못하도록 처리해주었습니다.
+
+​
+
+1) 완전탐색으로 만들 수 있는 숫자 조합 찾기
+
+2) 숫자 조합이 0, 1이 아니면서 소수인지 판별한 후 true면 set에 저장
+
+​
+
+answer= set.size();
+
+​
